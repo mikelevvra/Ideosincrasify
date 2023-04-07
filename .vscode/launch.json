@@ -1,0 +1,12 @@
+{
+    "name": "Python: Debug Script",
+    "type": "python",
+    "request": "launch",
+    "program": "${file}",
+    "args": ['gather_data_local'],
+    "cwd": "${workspaceFolder}",
+    "console": "integratedTerminal",
+    "debugOptions": [
+        "RedirectOutput"
+    ]
+}
